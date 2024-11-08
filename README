@@ -3,4 +3,20 @@
 ## curso: Front-end Grupo 1
 ## Proyecto: contempla la implementacion de BEM y SASS en proyecto de hospital (practico 1 modulo 2)
 
-#instrucciones de visualización del proyecto
+# instrucciones de visualización del proyecto
+## 1 Descargar el archivo zip del proyecto desde el repositorio de GitHub: https://github.com/Feliperodriguezri/Practico2_Modulo2-Frontend-Corfo/tree/main
+## 2 Descomprimir el archivo en una carpeta local en su computadora.
+## 3 Abrir el archivo Ejercicio_Practico2_M2_FelipeRodriguez en un navegador weB o VSCode para visualizar el proyecto
+
+# Estructura del proyecto
+## El proyecto consta de las siguientes carpetas y archivos, los cuales se detallan a continuación:
+### Carpeta assets: contiene las imágenes utilizadas en el proyecto, como el logo del hospital y las imágenes de los servicios ofrecidos.
+
+### Carpeta css: contiene los archivos SASS y CSS generados a partir de ellos. Los archivos SASS se encuentran en la subcarpeta sass, mientras que los archivos CSS generados se encuentran en la carpeta css principal. Los archivos SASS utilizan la metodología BEM para organizar y nombrar las clases CSS, lo que facilita la lectura y mantenimiento del código. Los archivos CSS generados a partir de los SASS se encuentran minificados y optimizados para mejorar el rendimiento del sitio web.
+
+# Explicacion de como se implemento la metodologia BEM en el proyecto
+## Tomando como base el proyecto anterior (practico 1 modulo 2) se tomo cada seccion del proyecto anterior y se aplico la metodologia BEM, dividiendo el codigo en bloque, elemento y modificador, de esta manera se logro una mejor organizacion y mantenimiento del codigo, ademas de facilitar la lectura y comprension del mismo por parte de otros desarrolladores.
+
+# Explicacion de como se implemento SASS en el proyecto, junto con lo anterior se aplico SASS para mejorar la escritura y organizacion del codigo CSS, se utilizo la sintaxis SCSS y se aprovecho de las caracteristicas de SASS como variables, ademas de facilitar la modificacion y escalabilidad del proyecto con elemento como botones, card, formulacion, logos, etc.
+
+# Se utilizo la estructura SASS 7-1, la cual consiste en dividir los archivos SASS en 7 carpetas principales: base, components, layout, pages, themes, abstracts y vendors. Cada carpeta tiene una funcionalidad específica, lo que facilita la organización y mantenimiento del código. estas carpetas se compilan en un solo archivo llamado main.scss, el cual se encuentra en la carpeta css principal. Este archivo se importa en el archivo index.html para que se apliquen los estilos CSS en el proyecto.
