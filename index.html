@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" description="Felipe Rodriguez">
+    <meta name="keywords" content="centro medico, salud, medicina, medicos">
+    <!-- Favicon Centro -->
+    <link rel="shortcut icon" href="./assets/img/centroFavicon.png" type="image/x-icon">
+    <title>Practico2 Modulo2</title>
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+    <header>
+        <!-- INICIO NAVBAR -->
+        <nav class="navbar">
+            <div class="navbar__containerbox">
+                <a class="navbar__brand" href="#">
+                    <img class="navbar__logo" src="./assets/img/LOGO-Centro-Medico-Maktub.png"
+                        alt="Logo Centro Medico Maktub" width="200" height="auto">
+                </a>
+                <div class="navbar__menubox" id="navbarNav">
+                    <ul class="navbar__list">
+                        <li class="navbar__item">
+                            <a class="navbar__link navbar__link--active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a class="navbar__link" href="viewEquipoMedico.html">Equipo Medico</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a class="navbar__link" href="viewContacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <a type="button" href="#" class="button">Reserva tu cita</a>
+                </div>
+            </div>
+        </nav>
+        <!-- FIN NAVBAR -->
+    </header>
+
+    <!-- INICIO SECCION BIENVENIDA -->
+    <!-- Seccion saludos -->
+    <section class="welcome" id="bienvenida">
+        <div class="welcome__container">
+            <h1>Bienvenidos</h1>
+            <h2>Somos Centro Medico Maktub</h2>
+            <div class="welcome__content">
+                <div class="welcome__text">
+                    <p class="welcome__paragraph">
+                        Nos complace recibirlos en un lugar dedicado al cuidado y bienestar de toda la comunidad.
+                        Nuestra misión es brindar atención médica integral y de alta calidad, poniendo al paciente en
+                        el centro de todo lo que hacemos. Trabajamos con un equipo comprometido en ofrecer un trato
+                        humano y profesional, asegurando la mejor experiencia en salud.
+                    </p>
+                    <p class="welcome__paragraph">
+                        Nuestra visión es ser un referente en el cuidado de la salud, impulsando innovación y
+                        excelencia para mejorar la vida de nuestros pacientes. Gracias por confiar en nosotros;
+                        estamos aquí para cuidarlos.
+                    </p>
+                </div>
+                <div class="welcome__image-container">
+                    <img src="./assets/img/LOGO-Centro-Medico-Maktub.png" alt="Logo Centro Medico Maktub"
+                        class="welcome__image">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- FIN SECCION BIENVENIDA -->
+    <hr>
+    <!-- INICIO SECCION SERVICIOS -->
+
+    <section class="services">
+        <div class="services__container">
+            <div class="card">
+                <img src="./assets/img/img_consulta.jpg" alt="consulta_medica" class="card__img">
+                <div class="card__body">
+                    <h5 class="card__title">Consultas</h5>
+                    <p class="card__text">Atención personalizada para diagnóstico y tratamiento general.</p>
+                    <a href="#" class="button">Ir a Consultas</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./assets/img/img_urgencia.jpg" alt="atencion_urgencia_niño" class="card__img">
+                <div class="card__body">
+                    <h5 class="card__title">Urgencias</h5>
+                    <p class="card__text">Asistencia inmediata para emergencias disponible 24/7.</p>
+                    <a href="#" class="button">Ir a Urgencias</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./assets/img/img_Especialidades.jpg" alt="pantalla_seleccion_especialidades"
+                    class="card__img">
+                <div class="card__body">
+                    <h5 class="card__title">Especialidades</h5>
+                    <p class="card__text">Amplia gama de especialidades para un cuidado integral y especializado.</p>
+                    <a href="#" class="button">Ir a Especialidades</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIN SECCION SERVICIOS -->
+    <hr>
+    <!-- INICIO SECCION TESTIMONIOS -->
+    <section class="testimonials">
+        <div class="testimonials__header">
+            <h2 class="testimonials__title">Testimonios de pacientes</h2>
+            <p class="testimonials__subtitle">Escucha lo que nuestros pacientes tienen que decir sobre su experiencia en
+                nuestro hospital.</p>
+        </div>
+
+        <article class="testimonials__content">
+            <div class="card">
+                <p class="card__text">
+                    "La atención en el centro médico fue excepcional. Desde que llegué, el personal fue muy amable y
+                    profesional.
+                    Me sentí en buenas manos y realmente se preocuparon por mi bienestar. Estoy muy agradecida y lo
+                    recomendaría a cualquiera."
+                </p>
+                <strong class="card__title">Mariela</strong>
+            </div>
+
+            <div class="card">
+                <p class="card__text">
+                    "Tuve una emergencia y el equipo de urgencias fue rápido y eficiente. Me explicaron cada paso del
+                    proceso y
+                    me hicieron sentir seguro. Gracias a ellos, hoy estoy en mejor estado de salud. Sin duda, es el
+                    mejor lugar para atenderse."
+                </p>
+                <strong class="card__title">Christian</strong>
+            </div>
+
+            <div class="card">
+                <p class="card__text">
+                    "El equipo médico fue muy atento y cuidadoso. Mi recuperación fue rápida y sentí que estuve bien
+                    acompañado
+                    durante todo el proceso. Muchas gracias por su excelente servicio."
+                </p>
+                <strong class="card__title">Fernanda</strong>
+            </div>
+        </article>
+    </section>
+    <!-- FIN SECCION TESTIMONIOS -->
+    <div class="logo__box">
+        <img src="./assets/img/LOGO-Centro-Medico-Maktub.png" alt="Logo Centro Médico Maktub" class="logo__img">
+    </div>
+    <!-- INICIO FOOTER -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__row">
+                <div class="footer__section footer__section--contact">
+                    <h2 class="footer__title">Contacto</h2>
+                    <ul class="footer__list">
+                        <li class="footer__item"><i class="footer__icon fa-solid fa-phone"></i>Teléfono: +569 xxxx xxxx
+                        </li>
+                        <li class="footer__item"><i class="footer__icon fa-regular fa-envelope"></i>Email:
+                            contacto@maktub.cl</li>
+                        <li class="footer__item"><i class="footer__icon fa-solid fa-location-dot"></i>Dirección: Av. XXX
+                            123, Concepción, Chile</li>
+                        <li class="footer__item"><i class="footer__icon fa-solid fa-stopwatch"></i>Atención: Lunes a
+                            Viernes de 8:00 a 20:00.</li>
+                        <li class="footer__item"><i class="footer__icon fa-solid fa-globe"></i>Sitio web:
+                            www.centromaktub.cl</li>
+                    </ul>
+                </div>
+                <div class="footer__section footer__section--links">
+                    <div class="footer__links">
+                        <h2 class="footer__title">Enlaces a:</h2>
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="index.html" class="footer__link">Inicio</a></li>
+                            <li class="footer__item"><a href="viewEquipoMedico.html" class="footer__link">Equipo
+                                    Medico</a></li>
+                            <li class="footer__item"><a href="viewContacto.html" class="footer__link">Contacto</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__social">
+                        <h2 class="footer__title">Redes Sociales</h2>
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="https://www.facebook.com" target="_blank"
+                                    class="footer__link"><i class="fa-brands fa-facebook footer__icon"></i>Facebook</a>
+                            </li>
+                            <li class="footer__item"><a href="https://www.instagram.com" target="_blank"
+                                    class="footer__link"><i
+                                        class="fa-brands fa-instagram footer__icon"></i>Instagram</a></li>
+                            <li class="footer__item"><a href="https://www.tiktok.com" target="_blank"
+                                    class="footer__link"><i class="fa-brands fa-tiktok footer__icon"></i>Tiktok</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="footer__divider">
+        <p class="footer__text">Sitio web desarrollado por Felipe Rodriguez, 2024.</p>
+        <p class="footer__text">Todos los derechos reservados.</p>
+    </footer>
+    <!-- FIN FOOTER -->
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+.navbar {
+    background-color: #ffffff;
+
+    &__containerbox {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    &__logo {
+        margin-right: 0.5rem;
+    }
+
+
+    &__menubox {
+        display: flex;
+        align-items: center;
+    }
+
+    &__list {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__item {
+        margin-right: 1rem;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: #000;
+        font-size: 1rem;
+        padding: 0.5rem 0;
+    }
+
+    // Breakpoint para dispositivos pequeños (menos de 768px)
+    @media (max-width: 767px) {}
+
+    // Breakpoint para dispositivos medianos (768px a 1024px)
+    @media (min-width: 768px) and (max-width: 1024px) {}
+
+    // Breakpoint para dispositivos grandes (más de 1024px)
+    @media (min-width: 1024px) {}
+}

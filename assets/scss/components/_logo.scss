@@ -1,0 +1,13 @@
+.logo__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+
+    &__img{
+            max-width: 100%;
+            height: auto;
+        
+    }
+}
+

@@ -1,0 +1,72 @@
+.footer {
+    background-color: #f0f0f0;
+    padding: 2rem;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: left;
+
+    &__container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &__section {
+        flex: 1 1 45%;
+        margin-bottom: 16px;
+
+        &--contact {
+            margin-right: 16px;
+        }
+    }
+
+    &__title {
+        font-size: 24px;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    &__list {
+        list-style: none;
+        padding: 0;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    &__icon {
+        margin-right: 14px;
+        color: #007bff;
+    }
+
+    &__divider {
+        margin: 50px 0;
+        border: 0;
+        border-top: 1px solid #ccc;
+    }
+
+    &__text {
+        text-align: center;
+        font-size: 14px;
+        margin: 10px 0;
+        color: black;
+    }
+
+    // Breakpoint para dispositivos pequeños (menos de 768px)
+    @media (max-width: 767px) {}
+
+    // Breakpoint para dispositivos medianos (768px a 1024px)
+    @media (min-width: 768px) and (max-width: 1024px) {}
+
+    // Breakpoint para dispositivos grandes (más de 1024px)
+    @media (min-width: 1024px) {}
+}

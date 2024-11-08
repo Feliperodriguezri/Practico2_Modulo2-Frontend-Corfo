@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" description="Felipe Rodriguez">
+    <meta name="keywords" content="centro medico, salud, medicina, medicos">
+    <!-- Favicon Centro -->
+    <link rel="shortcut icon" href="./assets/img/centroFavicon.png" type="image/x-icon">
+    <title>Practico2 Modulo2</title>
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+    <header>
+        <!-- INICIO NAVBAR -->
+        <nav class="navbar">
+            <div class="navbar__containerbox">
+                <a class="navbar__brand" href="#">
+                    <img class="navbar__logo" src="./assets/img/LOGO-Centro-Medico-Maktub.png"
+                        alt="Logo Centro Medico Maktub" width="200" height="auto">
+                </a>
+                <div class="navbar__menubox" id="navbarNav">
+                    <ul class="navbar__list">
+                        <li class="navbar__item">
+                            <a class="navbar__link navbar__link--active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a class="navbar__link" href="viewEquipoMedico.html">Equipo Medico</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a class="navbar__link" href="viewContacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <button type="button" class="button">Reserva tu cita</button>
+                </div>
+            </div>
+        </nav>
+        <!-- FIN NAVBAR -->
+    </header>
+
+    <!-- INICIO SECCION FORMULARIO -->
+
+    <!-- INICIO FORMULARIO -->
+
+    <section class="contacto">
+        <h1 class="contacto__title">
+            Comunícate con nosotros o visítanos en nuestra dirección
+        </h1>
+        <div class="contacto__info">
+            <h3>
+                Si tienes alguna pregunta, no dudes en contactarnos. Estaremos encantados de ayudarte.
+            </h3>
+        </div>
+        <form class="form" action="">
+            <div class="form__box">
+                <label class="form__label" for="nombre">Nombre</label>
+                <input class="form__input" type="text" id="nombre" placeholder="Nombre" required />
+            </div>
+            <div class="form__box">
+                <label class="form__label" for="email">Email</label>
+                <input class="form__input" type="email" id="email" placeholder="Email" required />
+            </div>
+            <div class="form__box">
+                <label class="form__label" for="asunto">Asunto</label>
+                <textarea class="form__input" id="asunto" rows="1" placeholder="Asunto" required></textarea>
+            </div>
+            <div class="form__box">
+                <label class="form__label" for="mensaje">Mensaje</label>
+                <textarea class="form__input" id="mensaje" rows="3" placeholder="Mensaje" required></textarea>
+            </div>
+            <button type="submit" class="button">Enviar</button>
+        </form>
+    </section>
+    <hr>
+    <!-- INICIO MAPA -->
+    <section class="ubicacion">
+        <div class="ubicacion__info">
+            <h2>Visítanos en nuestro centro médico en Concepción</h2>
+        </div>
+        <div class="ubicacion__map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25548.373734025812!2d-73.04795204595798!3d-36.82938048818848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9669b5d0f7080943%3A0x9388a850ce8442c!2sPlaza%20de%20la%20Independencia%20de%20Concepci%C3%B3n!5e0!3m2!1ses!2scl!4v1730944066114!5m2!1ses!2scl"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+
+    <!-- FIN MAPA -->
+
+
+    <!-- FIN FORMULARIO -->
+    <div class="logo__box">
+        <img src="./assets/img/LOGO-Centro-Medico-Maktub.png" alt="Logo Centro Médico Maktub" class="logo__img">
+    </div>
+    <!-- INICIO FOOTER -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__row">
+                <div class="footer__section footer__section--contact">
+                    <h2 class="footer__title">Contacto</h2>
+                    <ul class="footer__list">
+                        <li class="footer__item"><i class="footer__icon fa-solid fa-phone"></i>Teléfono: +569 xxxx xxxx
+                        </li>
+                        <li class="footer__item"><i class="footer__icon fa-regular fa-envelope"></i>Email:
+                            contacto@maktub.cl</li>
+                        <li class="footer__item"><i class="footer__icon fa-solid fa-location-dot"></i>Dirección: Av. XXX
+                            123, Concepción, Chile</li>
+                        <li class="footer__item"><i class="footer__icon fa-solid fa-stopwatch"></i>Atención: Lunes a
+                            Viernes de 8:00 a 20:00.</li>
+                        <li class="footer__item"><i class="footer__icon fa-solid fa-globe"></i>Sitio web:
+                            www.centromaktub.cl</li>
+                    </ul>
+                </div>
+                <div class="footer__section footer__section--links">
+                    <div class="footer__links">
+                        <h2 class="footer__title">Enlaces a:</h2>
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="#bienvenida" class="footer__link">Inicio</a></li>
+                            <li class="footer__item"><a href="viewEquipoMedico.html" class="footer__link">Equipo
+                                    Medico</a></li>
+                            <li class="footer__item"><a href="viewContacto.html" class="footer__link">Contacto</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__social">
+                        <h2 class="footer__title">Redes Sociales</h2>
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="https://www.facebook.com" target="_blank"
+                                    class="footer__link"><i class="fa-brands fa-facebook footer__icon"></i>Facebook</a>
+                            </li>
+                            <li class="footer__item"><a href="https://www.instagram.com" target="_blank"
+                                    class="footer__link"><i
+                                        class="fa-brands fa-instagram footer__icon"></i>Instagram</a></li>
+                            <li class="footer__item"><a href="https://www.tiktok.com" target="_blank"
+                                    class="footer__link"><i class="fa-brands fa-tiktok footer__icon"></i>Tiktok</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="footer__divider">
+        <p class="footer__text">Sitio web desarrollado por Felipe Rodriguez, 2024.</p>
+        <p class="footer__text">Todos los derechos reservados.</p>
+    </footer>
+    <!-- FIN FOOTER -->
+</body>
+
+</html>

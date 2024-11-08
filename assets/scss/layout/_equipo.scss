@@ -1,0 +1,26 @@
+.equipo {
+    &__header {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    &__title {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+        color: #333;
+    }
+
+    &__description {
+        font-size: 1rem;
+        color: #555;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    &__grid {
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+
+}

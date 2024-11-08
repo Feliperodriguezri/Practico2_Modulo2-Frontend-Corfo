@@ -1,0 +1,13 @@
+//abstracts
+//vendors
+@import 'vendors/fontawesome';
+//base
+@import 'base/reset';
+@import 'base/base';
+//layouts
+@import 'layout/header', 'layout/footer', 'layout/home', 'layout/services.scss', 'layout/testimonials', 'layout/equipo', 'layout/contact', 'layout/ubicacion';
+
+//components
+@import 'components/button', 'components/card', 'components/form', 'components/logo';
+//pages
+//themes
